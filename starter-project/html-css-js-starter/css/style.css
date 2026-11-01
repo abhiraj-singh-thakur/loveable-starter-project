@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+--font-family:Arial,Helvetica,sans-serif;
+--primary:#2563eb;
+--secondary:#64748b;
+--text:#222;
+--background:#fff;
+--radius:8px;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font-family);line-height:1.5;color:var(--text);background:var(--background);}
+img{max-width:100%;display:block;}
+button,input,textarea,select{font:inherit;}
+a{text-decoration:none;color:inherit;}
+ul{list-style:none;}
